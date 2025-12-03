@@ -1,0 +1,114 @@
+html {    /* style */
+    background-color: white;
+}
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black; 
+    margin-bottom: 20px;
+    height: 57px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    padding-right: 8px;
+    padding-left: 8px;
+    z-index: 100;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+#A-propos {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.footer-bottom {
+    display: block;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(64, 95, 121);
+    padding: 10px;
+
+}
+
+.info-section {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    row-gap: 2px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.email-section {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+
+
+
+
+
+main{/* style */
+    min-width: 10%;
+    border: thin white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 30px;
+    position: relative;
+    top: 40px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    
+
+}
+.button2 {
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+#identifiant {
+    border-radius: 10px;
+    border-style: solid;
+}
+#password {
+    border-radius: 10px;
+    border-style: solid;
+}
+.main-box {
+    display: flex;
+    justify-content: center;
+}
