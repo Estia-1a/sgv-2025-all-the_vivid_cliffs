@@ -70,11 +70,13 @@ ul {
 
 
 
-main{/* style */
+/* main{
     min-width: 10%;
     border: thin white;
     text-align: center;
-}
+    position: relative;
+    top: 80px;
+} */
 
 main {
     display: flex;
@@ -84,7 +86,7 @@ main {
     justify-content: space-between;
     row-gap: 30px;
     position: relative;
-    top: 40px;
+    top: 80px;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 10px;
     padding: 10px;
