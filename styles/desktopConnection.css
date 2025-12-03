@@ -17,7 +17,10 @@ main {
     row-gap: 30px;
     position: relative;
     top: 40px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
     
 
 }
@@ -36,4 +39,8 @@ main {
 #password {
     border-radius: 10px;
     border-style: solid;
+}
+.main-box {
+    display: flex;
+    justify-content: center;
 }
