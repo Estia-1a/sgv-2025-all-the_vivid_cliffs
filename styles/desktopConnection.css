@@ -2,11 +2,18 @@ html {    /* style */
     background-color: white;
 }
 
-body {
-     /* style */
-    width: 90%;
-    margin: auto;
-    background-color: white;
+main{/* style */
+    min-width: 10%;
+    border: thin white;
     text-align: center;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+.button2 {
+    width: 100px;
+}
