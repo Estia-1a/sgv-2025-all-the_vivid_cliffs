@@ -12,8 +12,28 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    row-gap: 30px;
+    position: relative;
+    top: 40px;
+    border: 1px solid rgb(0, 0, 0);
+    
+
 }
 .button2 {
-    width: 100px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    cursor: pointer;
+}
+
+#identifiant {
+    border-radius: 10px;
+    border-style: solid;
+}
+#password {
+    border-radius: 10px;
+    border-style: solid;
 }
