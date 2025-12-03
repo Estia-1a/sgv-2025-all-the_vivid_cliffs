@@ -68,6 +68,31 @@ ul {
     padding: 0;
 }
 
+nav{
+    position: relative;
+    top: 80px;
+    margin-right: 8px;
+    margin-left: 8px;
+
+}
+
+.main-button {
+    position: relative;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#creer-alerte-button {
+    position: relative;
+    left: 20px;
+}
+
+#trier-select {
+    position: relative;
+    left: 1000px;
+}
 
 
 main {
@@ -78,7 +103,7 @@ main {
     column-gap: 50px;
     margin-right: 8px;
     margin-left: 8px;
-    top: 40px;
+    top: 80px;
 }
 
 .annonce {
@@ -91,4 +116,9 @@ main {
 
 .owner-section {
     margin-top: 20px;
+}
+
+.n-photo {
+    position: absolute;
+    z-index: 99;
 }
