@@ -15,6 +15,139 @@
         </header>
         <h1>Publier une annonce</h1>
 
+         <main>
+            <form>
+                <div class="localisation section">
+                    <h1>Localisation de votre logement</h1>
+                    <h3>Adresse - France métropolitaine et DROM-COM uniquement *</h3>
+                    <input type="text" placeholder="Ex: 16 rue des Couteliers Toulouse" id="adresse">
+                    <p class="petit">Vos coordonnées seront communiquées uniquement aux locataires dont vous aurez accepté la location.</p>
+                    <p class="petit">Le permis de louer est en vigeur dans certaines villes. Si besoin, vérifiez auprès de votre mairie.</p>
+                </div>
+
+                <hr>
+                
+                <div class="a-propos-du-logement section">
+                    <h1>À propos de votre logement</h1>
+                    <div class="info-logement">
+                        <div class="meuble">
+                            <h3>Meublé / non meublé *</h3>
+                            <div class="meuble-meuble">
+                                <input type="radio" name="meuble">
+                                <label>Meublé</label>
+                            </div>
+                            <div class="meuble-non-meuble">
+                                <input type="radio" name="meuble">
+                                <label>Non meublé</label>
+                            </div>
+                        </div>
+                        <div class="hebergement">
+                            <div>
+                                <label>Type d'hébergement *</label>
+                                <select name="type">
+                                    <option value="appartement">Appartement</option>
+                                    <option value="maison">Maison</option>
+                                    <option value="studio">Studio</option>
+                                    <option value="autre">Autre</option>
+                                </select>
+                            </div>
+                            <div class="location-type">
+                                <label>Location partielle ou totale *</label>
+                                <select name="type">
+                                    <option value="logement-entier">Logement entier</option>
+                                    <option value="chambre-privee">Chambre privée</option>
+                                    <option value="chambre-partagee">Chambre partagée</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="categorie-logement">
+                            <h3>Catégorie de votre logement *</h3>
+                            <div class="categorie-logement-radio">
+                                <div>
+                                    <input type="radio" name="logement">
+                                    <label>Investissement locatif / résidence secondaire</label>
+                                </div>
+                                
+                                <div>
+                                    <input type="radio" name="logement">
+                                    <label>Résidence avec services</label>
+                                </div>
+
+                                <div>
+                                    <input type="radio" name="logement">
+                                    <label>Résidence principale</label>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="informations section">
+                    <h1>Vos informations</h1>
+                    <p class="petit">Déjà membre ? <a href="#">Connectez-vous</a></p>
+                    <div class="info">
+                        <div class="info-input" id="prenom">
+                            <p>Prénom *</p>
+                            <input type="text" class="info inputs">
+                        </div>
+                        <div class="info-input" id="adresse-email">
+                            <p>Adresse email *</p>
+                            <input type="email" class="info inputs">
+                        </div>
+                        <div class="info-input" id="mot-de-passe">
+                            <p>Mot de passe *</p>
+                            <input type="password" class="info inputs">
+                        </div>
+                        <div class="info-input" id="telephone">
+                            <p>Numéro de téléphone *</p>
+                            <input type="number" class="info inputs">
+                        </div>
+                        <div class="info-input" id="type-loueur">
+                            <p>Type de loueur *</p>
+                            <select name="loueur" class="info inputs">
+                                <option value="logement-entier">Particulier</option>
+                                <option value="chambre-privee">Professionel</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="creation section">
+                    <h1>Création de votre annonce</h1>
+                    <div class="accepter">
+                        <div>
+                            <input type="checkbox">
+                            <label>Je souhaite recevoir par email des offres promotionnelles et informations de Stud[jsp]</label>
+                        </div>
+                        <div>
+                            <input type="checkbox">
+                            <label>J'accepte les Conditions Générales d'Utilisation</label>
+
+                            <p>Je déclare sur l'honneur être en conformité avec les dispositions légales applicables à la location envisagée dans mon logement.
+                            J'autorise la notification de préavis par recommandés électroniques et accepte que la date d'envoi du congé fasse foi dans le cadre du préavis.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <button>Enregister et Continuer</button>
+
+                <div>
+                    <p class="petit">Pour obtenir des informations sur la façon dont vos données personnelles sont collectées sur Stud[jsp], consultez notre politique de confidentialité.
+                    </p>
+                    <p class="petit">* Champ obligatoire</p>
+                </div>
+
+            </form>
+        </main>
+
         <footer>
             <hr>
             <div>
