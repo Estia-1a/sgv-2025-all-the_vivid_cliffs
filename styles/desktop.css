@@ -1,13 +1,14 @@
 
 body {
     margin: 0px;
+    font-family: sans-serif;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid black; 
+    /* border-bottom: 1px solid black;  */
     margin-bottom: 20px;
     height: 57px;
     width: 100%;
@@ -17,6 +18,7 @@ header {
     padding-right: 8px;
     padding-left: 8px;
     z-index: 1000;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
 }
 
 #button-header{
