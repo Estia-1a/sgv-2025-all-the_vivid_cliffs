@@ -13,20 +13,19 @@
             <div id="website-name">StudHome</div>
             <div id="button-header">
                 <button class="btn btn-outline btn-connection"><a href="connection.html">Se connecter</a></button>
-                <button class="btn btn-publier">
-                    <a href="publier.html">Publier une annonce</a></button>
+                <button class="btn btn-publier"><a href="publier.html">Publier une annonce</a></button>
             </div>
             
         </header>
         <nav>
-            <input type="search" placeholder="Localisation">
-            <select>
+            <input class="filtre-et-option-container" type="search" placeholder="Localisation">
+            <select class="filtre-et-option-container">
                 <option>Type de logement</option>
             </select>
-            <input type="date">
+            <input class="filtre-et-option-container" type="date">
             <label>Budget (25 à 2500):</label>
-            <input type="range" min="25" max="2500">
-            <select>
+            <input class="filtre-et-option-container" type="range" min="25" max="2500">
+            <select class="filtre-et-option-container">
                 <option>Autres</option>
             </select>
         </nav>
@@ -36,7 +35,7 @@
                 <img src="image/image_index/bell-2-ring-solid-svgrepo-com.svg" alt="notification bell" height="20px">
                 Créer une alerte
             </button>
-            <select id="trier-select">
+            <select class="filtre-et-option-container" id="trier-select">
                 <option>Trier</option>
             </select>
         </div>
@@ -606,7 +605,7 @@
             <div class="email-section">
                 <span>Newsletter</span>
                 <p>Recevez les nouvelles annonces et informations sur le logement étudiant :</p>
-                <input placeholder="Email" id="email-input">
+                <input class="filtre-et-option-container" placeholder="Email" id="email-input">
                 <button class="btn btn-sabonner">S'abonner</button>
             </div>
             <div class="footer-bottom">
