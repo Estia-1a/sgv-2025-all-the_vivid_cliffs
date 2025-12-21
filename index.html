@@ -12,8 +12,9 @@
         <header>
             <div id="website-name">StudHome</div>
             <div id="button-header">
-                <button><a href="connection.html">Se connecter</a></button>
-                <button><a href="publier.html">Publier une annonce</a></button>
+                <button class="btn btn-outline btn-connection"><a href="connection.html">Se connecter</a></button>
+                <button class="btn btn-publier">
+                    <a href="publier.html">Publier une annonce</a></button>
             </div>
             
         </header>
@@ -31,7 +32,10 @@
         </nav>
 
         <div class="main-button">
-            <button id="creer-alerte-button">Créer une alerte</button>
+            <button class="btn btn-outline" id="creer-alerte-button">
+                <img src="image/image_index/bell-2-ring-solid-svgrepo-com.svg" alt="notification bell" height="20px">
+                Créer une alerte
+            </button>
             <select id="trier-select">
                 <option>Trier</option>
             </select>
@@ -603,7 +607,7 @@
                 <span>Newsletter</span>
                 <p>Recevez les nouvelles annonces et informations sur le logement étudiant :</p>
                 <input placeholder="Email" id="email-input">
-                <button>S'abonner</button>
+                <button class="btn btn-sabonner">S'abonner</button>
             </div>
             <div class="footer-bottom">
                 <p>© 2025 - StudHome. Tous droits réservés.</p>
