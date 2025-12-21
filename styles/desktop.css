@@ -26,6 +26,10 @@ header {
     right: 20px;
 }
 
+#website-name{
+    margin-top: 2px;
+}
+
 footer {
     margin-top: 100px;
     font-size: 15px;
@@ -44,6 +48,16 @@ footer {
     background-color: rgb(64, 95, 121);
     padding: 10px;
 
+}
+
+.footer-section div{
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+    column-gap: 10px ;
+}
+.footer-section p{
+    margin: 0;
 }
 
 .info-section {
