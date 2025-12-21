@@ -28,6 +28,7 @@ header {
 
 footer {
     margin-top: 100px;
+    font-size: 15px;
 }
 
 #A-propos {
@@ -73,8 +74,9 @@ ul {
 nav{
     position: relative;
     top: 80px;
-    margin-right: 8px;
-    margin-left: 8px;
+    padding: 0 20px;
+    /* margin-right: 8px;
+    margin-left: 8px; */
     display: flex;
     column-gap: 15px;
     row-gap: 10px;
@@ -112,6 +114,7 @@ main {
     margin-right: 8px;
     margin-left: 8px;
     margin-bottom: 40px;
+    padding: 0 40px;
     top: 80px;
     
 }
@@ -165,7 +168,7 @@ main {
     font-size: 11px;
 }
 
-.reservation {
+/* .reservation {
     position: absolute;
     background-color: #50a3e2;
     color: white;
@@ -176,7 +179,7 @@ main {
     padding: 4px 10px;
     font-size: 11px;
     font-weight: bold;
-}
+} */
 
 #type {
     font-size: 13px;
