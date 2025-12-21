@@ -114,8 +114,9 @@ nav{
 }
 
 #trier-select {
-    position: relative;
-    left: 1000px;
+    position: absolute;
+    right: 320px;
+    /* left: 1000px; */
 }
 
 
