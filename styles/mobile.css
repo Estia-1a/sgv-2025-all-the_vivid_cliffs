@@ -187,10 +187,10 @@ main{
     cursor: pointer;
 }
 
-#type {
+.type {
     font-size: 13px;
 }
-#name {
+.name {
     font-weight: bold;
     font-size: 14px;
 }
@@ -219,7 +219,7 @@ main{
     font-size: 13px;
 }
 
-#localisation {
+.localisation {
     color: #6a73ad;
     
 
