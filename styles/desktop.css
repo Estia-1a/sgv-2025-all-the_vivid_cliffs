@@ -1,6 +1,6 @@
 
 body {
-    margin: 0px;
+    margin: 0;
     font-family: sans-serif;
 }
 
@@ -117,6 +117,12 @@ nav{
     position: absolute;
     right: 320px;
     /* left: 1000px; */
+}
+
+
+#budget{
+    display: flex;
+    align-items: center;
 }
 
 
